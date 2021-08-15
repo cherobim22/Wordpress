@@ -1,1 +1,0 @@
-<h6>hello theme</h6>
