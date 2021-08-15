@@ -1,7 +1,3 @@
-<?php
-
-
-?>
 
 <header id="masthead" class="" role="banner">
 	<link rel="stylesheet" href="<?php  echo get_template_directory_uri() . '/template-parts/header/css/index.css'?>" type="text/css" media="screen" />
