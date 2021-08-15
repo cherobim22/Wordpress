@@ -11,8 +11,12 @@
 <script>
 	document.getElementById('form-lead').addEventListener('submit', (e) => {
 		e.preventDefault();
-		document.getElementById('')
-		document.getElementById('')
+		let nome = document.getElementById('name').value
+		let email = document.getElementById('email').value
+
+		let item = 'lead-'+Date.now()
+		localStorage.setItem(item, email);
+
 		document.querySelector('.form-submit').classList.replace('flex', 'none');
 		document.querySelector('.thankyou').classList.replace('none', 'flex');
 		

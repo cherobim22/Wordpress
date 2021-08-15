@@ -17,7 +17,6 @@
 
 	gtag('config', 'G-7TDY6CXX0C');
 	</script>
-	<!-- <link rel="stylesheet" href="http://localhost/wordpress/wordpress/wp-content/themes/ContaAzul/assets/css/fa.css"> -->
 </head>
 
 <body <?php body_class(); ?>>

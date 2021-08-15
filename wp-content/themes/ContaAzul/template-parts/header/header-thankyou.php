@@ -4,10 +4,10 @@
     <small class="txt txt-small">Compartilhe essa página com amigos para atenderem ao evento com você.</small>
     <div class="thankyou-buttons" >
         <div class="tk-icon" id="submit-facebook">
-        <img src="http://localhost/wordpress/wordpress/wp-content/themes/ContaAzul/template-parts/header/imgs/facebook.svg" alt=""><span>Compartilhar</span>
+        <img src="<?php  echo get_template_directory_uri() . '/template-parts/header/imgs/facebook.svg' ?>" alt=""><span>Compartilhar</span>
         </div>
         <div class="tk-icon" id="submit-email">
-          <img src="http://localhost/wordpress/wordpress/wp-content/themes/ContaAzul/template-parts/header/imgs/mail-icon.svg" alt="">  <span >Mandar email</span>
+          <img src="<?php  echo get_template_directory_uri() . '/template-parts/header/imgs/mail-icon.svg' ?>" alt="">  <span >Mandar email</span>
         </div>
     </div>
 </div>
