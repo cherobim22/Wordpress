@@ -16,9 +16,9 @@
 		<div class="navegation-footer">
 			<ul class="footer-navigation-wrapper ">
 				<li><a href="https://www.facebook.com/ContaAzul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/facebook.svg'?>" alt=""></a></li>
-				<li><a href="https://www.facebook.com/ContaAzul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/twitter.svg'?>" alt=""></a></li>
+				<li><a href="https://twitter.com/contaazul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/twitter.svg'?>" alt=""></a></li>
 				<li><a href="https://www.linkedin.com/company/contaazul/" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/linkedin.svg'?>" alt=""></a></li>
-				<li><a href="https://twitter.com/contaazul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/youtube.svg'?>" alt=""></a></li>
+				<li><a href="https://www.youtube.com/user/ContaAzulTV" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/youtube.svg'?>" alt=""></a></li>
 			</ul>
 		</div>
 	</footer><!-- #colophon -->
