@@ -1,5 +1,6 @@
 <?php
 ?>
+<?php get_template_part( 'template-parts/content/content-none' ); ?>
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- #content -->

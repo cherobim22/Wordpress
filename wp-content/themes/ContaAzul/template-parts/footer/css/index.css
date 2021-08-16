@@ -32,6 +32,10 @@
     margin: 0px 16px;
 }
 
+.card-item h4{
+    color: #0288d1;
+}
+
 .card-item span{
     font-size: 16px;
 }

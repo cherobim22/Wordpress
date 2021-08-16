@@ -3,7 +3,7 @@
 
 <section class="post-section">
 	<div class="page-content">
-		<span>Sua empresa precisa de controle financeiro ? <br> Centralize tudo em um único sistema.</span>
+		<span>Sua empresa precisa de controle financeiro? <br> Centralize tudo em um único sistema</span>
 	</div>
 </section>
 <style>
