@@ -15,7 +15,7 @@ Xampp - https://www.apachefriends.org/xampp-files/8.0.9/xampp-windows-x64-8.0.9-
 É necessario a criação de um novo database chamado 'wordpress'
     - em http://localhost/phpmyadmin/ (novo)
     
-Apos a instalação do xampp, é necessario copiar a pasta do projeto dentro da pasta de arquivos do xampp 'htdocs'
+Apos a instalação do xampp, é necessario copiar a pasta do projeto dentro da pasta de arquivos do xampp 'xampp/htdocs'
 - Nomeie a pasta com os aqruvios do wordpress como 'wordpress'
 - Em seguida acessar http://localhost/wordpress/ para instalação do wordpress
 ```
