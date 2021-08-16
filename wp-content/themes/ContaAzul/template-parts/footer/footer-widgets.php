@@ -24,7 +24,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		</div>
 		<div class="card-item">
 			<img src="<?php echo get_template_directory_uri() . '/template-parts/footer/imgs/fluxodecaixa.svg'?>" alt="">
-			<h4>Fluco de caixa diario e mensal</h4>
+			<h4>Fluxo de caixa diario e mensal</h4>
 			<span>Movimentações de entradas e saidas, geração de caixa e o saldo do caixa por periodo.</span>
 		</div>
 		<div class="card-item">
