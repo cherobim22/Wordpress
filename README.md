@@ -26,7 +26,7 @@ Detalhes da aplicação (Wordpress)
 No painel administrativo http://localhost/wordpress/wp-admin/ é necessário ativar o tema ContaAzul em seguida acessar http://localhost/wordpress/ que a aplicação já será visualizado.
 ```
 
-Detalhes da aplicação (Wordpress)
+Acesso Google Analytics
 
 ```sh
 email - pessegada33@gmail.com
