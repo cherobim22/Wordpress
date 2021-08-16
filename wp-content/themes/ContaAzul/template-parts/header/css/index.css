@@ -8,7 +8,7 @@
 	align-items: center;
 	justify-content: center;
 	background-size: 100%;
-	background-image: url("http://localhost/wordpress/wordpress/wp-content/themes/ContaAzul/template-parts/header/imgs/hero.jpg");
+	/* background-image: url("http://localhost/wordpress/wordpress/wp-content/themes/ContaAzul/template-parts/header/imgs/hero.jpg"); */
 }
 
 .elementToFadeInAndOut {
