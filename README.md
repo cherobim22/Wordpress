@@ -23,6 +23,6 @@ Após a instalação do xampp, é necessario copiar a pasta do projeto dentro da
 Detalhes da aplicação (Wordpress)
 
 ```sh
-No painel administrativo http://localhost/wordpress/wordpress/wp-admin/ é necessario ativar o tema ContaAzul em seguida acessar http://localhost/wordpress/ que a aplicação ja sera vizualizada.
+No painel administrativo http://localhost/wordpress/wp-admin/ é necessario ativar o tema ContaAzul em seguida acessar http://localhost/wordpress/ que a aplicação ja sera vizualizada.
 ```
 
