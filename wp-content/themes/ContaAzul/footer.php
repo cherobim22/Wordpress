@@ -13,25 +13,14 @@
 		<span>&copy; 2016 Direitors reservados - <a>Termos de uso</a> - <a>Politica de privacidade</a></span>
 		
 		
-		<?php if ( has_nav_menu( 'footer' ) ) : ?>
-			<nav aria-label="<?php esc_attr_e( 'Secondary menu', 'twentytwentyone' ); ?>" class="footer-navigation">
-				<ul class="footer-navigation-wrapper">
-					<?php
-					wp_nav_menu(
-						array(
-							'theme_location' => 'footer',
-							'items_wrap'     => '%3$s',
-							'container'      => false,
-							'depth'          => 1,
-							'link_before'    => '<span>',
-							'link_after'     => '</span>',
-							'fallback_cb'    => false,
-						)
-					);
-					?>
-				</ul><!-- .footer-navigation-wrapper -->
-			</nav><!-- .footer-navigation -->
-		<?php endif; ?>
+		<div class="navegation-footer">
+			<ul class="footer-navigation-wrapper ">
+				<li><a href="https://www.facebook.com/ContaAzul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/facebook.svg'?>" alt=""></a></li>
+				<li><a href="https://www.facebook.com/ContaAzul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/twitter.svg'?>" alt=""></a></li>
+				<li><a href="https://www.linkedin.com/company/contaazul/" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/linkedin.svg'?>" alt=""></a></li>
+				<li><a href="https://twitter.com/contaazul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/youtube.svg'?>" alt=""></a></li>
+			</ul>
+		</div>
 	</footer><!-- #colophon -->
 
 </div><!-- #page -->
@@ -39,80 +28,4 @@
 <?php wp_footer(); ?>
 
 </body>
-<style>
-	#colophon{
-	/* border: 1px solid red; */
-	width: 96%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px;
-}
-
-#colophon > span > a{
-	color: #2687e9;
-}
-
-.site-logo{
-	display: flex;
-	align-items: center;
-}
-
-.footer-navigation{
-	display: flex;
-}
-
-ul.footer-navigation-wrapper {
-    display: flex;
-    justify-content: space-around;
-    /* border: 1px solid red; */
-    width: 191px;
-    list-style-type: none;
-	/* margin-right: 10%; */
-}
-
-svg.svg-icon {
-    fill: #2687e9;
-}
-
-.site-footer span{
-	margin-left: 50px;
-}
-
-
-@media (min-width: 300px) and (max-width: 640px) {
-	#colophon{
-		/* border: 1px solid red; */
-		display: flex;
-		flex-direction: column;
-		margin: 0 auto ;
-		padding: 0px;
-	}
-	.site-footer span{
-		margin-left: 0px;
-		margin-top: 15px;
-		text-align: center;
-		font-size: 14px;
-		/* width: 90%; */
-		padding: 5px;
-
-	}
-	ul.footer-navigation-wrapper {
-		margin-top: 20px;
-		display: flex;
-		justify-content: space-around;
-		list-style-type: none;
-		margin-right: 15%;
-
-	}
-}
-
-/* @media (max-width: 395px)
-{
-	.site-footer span{
-			border: 1px solid red;
-
-	}
-} */
-</style>
 </html>
