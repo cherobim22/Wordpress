@@ -5,6 +5,7 @@ My first wordpress project
 - Os dados do formularios são salvos no localhost.
 - No arquivo \themes\ContaAzul\header.php pode-se encontrar o script do Google Analytics.
 - O tema ContaAzul foi criado a partir de outro tema chamado 'Twenty_Twenty_One', alguns arquivos foram mantidos, para que o tema funcionassse como desejado.
+- Cada parte do tema é dividido em pastas separadas, contento scripts, imagens e css.
 
 
 Essa aplicação foi construida com o auxilio do Xampp
