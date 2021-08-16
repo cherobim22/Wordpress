@@ -11,8 +11,6 @@
 		<div class="site-logo-footer"><img src="<?php  echo get_template_directory_uri() . '/assets/images/logoAzul.png'?>" alt=""></div>
 	
 		<span>&copy; 2021 Direitors reservados - <a>Termos de uso</a> - <a>Politica de privacidade</a></span>
-		
-		
 		<div class="navegation-footer">
 			<ul class="footer-navigation-wrapper ">
 				<li><a href="https://www.facebook.com/ContaAzul" target="_BLANCK"><img class="footer-svg" src="<?php  echo get_template_directory_uri() . '/template-parts/footer/imgs/menu/facebook.svg'?>" alt=""></a></li>

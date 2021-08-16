@@ -13,7 +13,7 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		<div class="card-item">
 		
 			<img src="<?php echo get_template_directory_uri() . '/template-parts/footer/imgs/notafiscal.svg'?>" alt="">
-			<h4>CNota fiscal de produto e serviço</h4>
+			<h4>Nota fiscal de produto e serviço</h4>
 			<span>Emissor de nota fiscal integrado com o processo de vendas.</span>
 		</div>
 		<div class="card-item">
