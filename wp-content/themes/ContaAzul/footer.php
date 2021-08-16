@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="<?php  echo get_template_directory_uri() . '/template-parts/footer/css/index.css'?>" type="text/css" media="screen" />
 		<div class="site-logo-footer"><img src="<?php  echo get_template_directory_uri() . '/assets/images/logoAzul.png'?>" alt=""></div>
 	
-		<span>&copy; 2016 Direitors reservados - <a>Termos de uso</a> - <a>Politica de privacidade</a></span>
+		<span>&copy; 2021 Direitors reservados - <a>Termos de uso</a> - <a>Politica de privacidade</a></span>
 		
 		
 		<div class="navegation-footer">
