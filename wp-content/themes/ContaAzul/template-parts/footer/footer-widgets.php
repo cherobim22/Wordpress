@@ -24,23 +24,23 @@ if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
 		</div>
 		<div class="card-item">
 			<img src="<?php echo get_template_directory_uri() . '/template-parts/footer/imgs/fluxodecaixa.svg'?>" alt="">
-			<h4>Fluxo de caixa diario e mensal</h4>
-			<span>Movimentações de entradas e saidas, geração de caixa e o saldo do caixa por periodo.</span>
+			<h4>Fluxo de caixa diário e mensal</h4>
+			<span>Movimentações de entradas e saídas, geração de caixa e o saldo do caixa por período.</span>
 		</div>
 		<div class="card-item">
 			<img src="<?php echo get_template_directory_uri() . '/template-parts/footer/imgs/integracao_bancaria.svg'?>" alt="">
-			<h4>Integração bancaria</h4>
-			<span>A integração bancaria sincroniza lançamentos do ContaAzul com o seu banco.</span>
+			<h4>Integração bancária</h4>
+			<span>A integração bancária sincroniza lançamentos do ContaAzul com o seu banco.</span>
 		</div>
 		<div class="card-item">
 		
 			<img src="<?php echo get_template_directory_uri() . '/template-parts/footer/imgs/integracao_contabil.svg'?>" alt="">
 			<h4>Integração contábil</h4>
-			<span>Gaste menos tempo com a burocracia contabil.<br> Envie seus documentos digitalmente e interaja de forma agil com o contador.</span>
+			<span>Gaste menos tempo com a burocracia contábil.<br> Envie seus documentos digitalmente e interaja de forma agíl com o contador.</span>
 		</div>
 		<div class="card-item">
 			<img src="<?php echo get_template_directory_uri() . '/template-parts/footer/imgs/conciliacao.svg'?>" alt="">
-			<h4>Conciliação bancaria</h4>
+			<h4>Conciliação bancária</h4>
 			<span>Economize até 20h por mês com a Conciliação Bancária do ContaAzul.</span>
 		</div>
 		<div class="card-item">

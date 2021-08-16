@@ -20,8 +20,9 @@
 
 	document.getElementById('submit-facebook').addEventListener('click', () => {
 		console.log('click');
-		document.querySelector('.thankyou').classList.replace('flex', 'none');
-		document.querySelector('.form-submit').classList.replace('none', 'flex');
+		// document.querySelector('.thankyou').classList.replace('flex', 'none');
+		// document.querySelector('.form-submit').classList.replace('none', 'flex');
+		ga('send', 'event')
 	})
 	
 </script>

@@ -17,6 +17,7 @@
 
 	gtag('config', 'G-7TDY6CXX0C');
 	</script>
+	<link rel="stylesheet" href="<?php  echo get_template_directory_uri() . '/template-parts/footer/css/index.css'?>" type="text/css" media="screen" />
 </head>
 
 <body <?php body_class(); ?>>

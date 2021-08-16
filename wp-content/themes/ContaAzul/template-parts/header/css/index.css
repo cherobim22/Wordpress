@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 	
-#masthead{
-	/* border: 1px solid red; */
-	font-family: 'Montserrat', sans-serif;
-	height: 600px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-size: 100%;
-	/* background-image: url("http://localhost/wordpress/wordpress/wp-content/themes/ContaAzul/template-parts/header/imgs/hero.jpg"); */
-}
-
 .elementToFadeInAndOut {
-
 	animation: fadeIn 2s linear;
 }
 
@@ -22,20 +10,17 @@
 }
 
 .form-submit{
-
 	flex-direction: column;
-
 	align-items: center;
 	height: 500px;
 }
 
 .thankyou{
-	
 	flex-direction: column;
-
 	align-items: center;
 	height: 500px;
 }
+
 .form{
 	display: flex;
 	flex-direction: column;
@@ -95,14 +80,12 @@
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
-	opacity: 0.7;
-}
-
-.form button:hover{
-
 	opacity: 1;
 }
 
+.form button:hover{
+	opacity: 0.9;
+}
 .tk-icon:hover{
 	opacity: 1;
 }
@@ -124,7 +107,6 @@
 .thankyou-buttons{
 	cursor: pointer;
 	margin-top: 5%;
-
 	width: 400px;
 	height: 400px;
 	display: flex;
@@ -177,5 +159,4 @@
 		align-items: center;
 		justify-content: flex-start;
 	}
-
 }
